@@ -1,0 +1,11 @@
+firebase-credentials.json
+firebase-debug.log
+firebase-debug.log.lck
+firebase-functions-debug.log
+firebase-functions-debug.log.lck
+
+.env
+
+venv
+
+firebase-config.js
