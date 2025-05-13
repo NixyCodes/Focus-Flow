@@ -1,6 +1,6 @@
-# Focus Flow - Pomodoro Timer Application
+# Focus Flow 
 
-A web-based Pomodoro Timer application built with Flask and Firebase, featuring user authentication, customizable timer settings, and email notifications. Focus Flow helps you maintain productivity using the Pomodoro Technique.
+A web-based Focus-Flow Timer application built with Flask and Firebase, featuring user authentication, customizable timer settings, and email notifications. Focus Flow helps you maintain productivity using the Pomodoro Technique.
 
 ## Features
 
