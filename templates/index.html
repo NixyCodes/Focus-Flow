@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FocusFlow Pomodoro</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-auth.js"></script>
@@ -13,14 +13,13 @@
     <nav class="navbar">
         <div class="logo">FocusFlow</div>
         <div class="nav-links">
-            <a href="#features">Features</a>
-            <a href="#about">About</a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=CuXJR_G8_PJYFi7u">Watch Demo</a>
             <a href="{{ url_for('login_page') }}" class="nav-button">Login</a>
             <a href="{{ url_for('register_page') }}" class="nav-button register-btn">Register</a>
         </div>
     </nav>
 
-    <div class="hero-section">
+    <div class="hero-section" >
         <div class="hero-content">
             <h1>Boost Your Productivity</h1>
             <p>Stay focused and accomplish more with our customizable Pomodoro timer</p>
@@ -50,20 +49,6 @@
         </div>
     </div>
 
-    <div id="pomodoro-container" style="display: none;">
-        <div class="timer">
-            <h1 id="time">25:00</h1>
-            <div class="controls">
-                <button id="start">Start</button>
-                <button id="pause">Pause</button>
-                <button id="reset">Reset</button>
-            </div>
-        </div>
-        <div class="session-info">
-            <p>Session: <span id="session-count">0</span></p>
-            <p>Status: <span id="status">Work</span></p>
-        </div>
-    </div>
 
     <script src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
